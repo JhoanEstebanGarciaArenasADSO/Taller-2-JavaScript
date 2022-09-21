@@ -1,14 +1,11 @@
 addEventListener("DOMContentLoaded", ()=>{
-// 4. Un jefe de obra con el dinero que tiene compra cinco juegos de llaves hexagonales cada uno por
-// $11500. Una bomba en $1168000 y tres cajas de pernos cada uno por $87000. Después de pagar le
-// sobran $91000. ¿cuánto dinero tenía?
+// 5. En el programa de cocina de “Doña Anita” han dado la receta para la preparación de bizcocho especial
+// de chocolate. Por cada 100 gramos de harina hay que añadir 10 gramos de cacao y un puñado de
+// nueces. Si quiero prepararlos con 20 gramos de chocolate. La cantidad de gramos de harina para
+// hacer el bizcocho es
 
-let llaves=11500*5;
-let bomba=1168000;
-let cajas=87000*3;
-let dinerosobrante=91000;
-let din=llaves+bomba+cajas;
-let dint=din+dinerosobrante;
-console.log(`El precio que pago era: ${din}`);
-console.log(`El dinero que tenia era: ${dint}`);
+let chocolat=20;
+let cacao=10;
+let gramoh=chocolat*cacao;
+console.log(`La cantidad de gramo de harina es: ${gramoh}`);
 })
